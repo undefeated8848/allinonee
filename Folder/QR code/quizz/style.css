@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #919191;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    background: linear-gradient(to left, blue, crimson, orangered, red, green, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shake 1.5s infinite alternate;
+    display: inline-block; Required for transform to apply properly
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translatey(-2px); }
+    50% { transform: translatey(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translatey(2px); }
+}
+
+h2{
+    margin-bottom: 8px;
+    background: linear-gradient(to right,blue,crimson,orangered,red,green,purple);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.contain{
+    width: 450px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 20px;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 6px;
+    
+
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.541);
+}
+.next-btn{
+    padding: 6px 25px;
+     margin: 10px auto ; 
+    display: block;
+    color: #fff;
+    background-color: #020202;
+    font-size:  16px;
+    display: none;
+}
+.next-btn:hover{
+    background-color: red;
+}

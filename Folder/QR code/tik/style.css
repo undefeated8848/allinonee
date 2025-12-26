@@ -1,0 +1,57 @@
+body{
+    background-color: #f8c3c3;
+}
+h1{
+    font-size: 40px;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1.9px solid black;
+    cursor: pointer;
+    font-size: 65px;
+
+}
+.container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+     text-align: center; 
+}
+.new-btn{
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgb(29, 21, 21);
+    color: #b2f00a;
+    cursor: pointer;
+    border: none;
+}
+.new-btn:hover{
+    background-color: red;
+    color: rgb(240, 228, 228);
+}
+.reset-btn{
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgb(29, 21, 21);
+    color: #b2f00a;
+    cursor: pointer;
+    border: none;
+}
+.reset-btn:hover{
+    background-color: red;
+    color: rgb(240, 228, 228);
+}
+.turn-message{
+    color: Blue;
+    font-size: 25px;
+}
+span{
+    color: red;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #002339;
+    color: #fff;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.container h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+h1 span{
+    color: #019555;
+    border-bottom: 2px solid #019555;
+   
+}
+.display{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.display #password{
+  padding: 14px;
+  width: 90%;
+  font-family: 30px;
+  border: none;
+  outline : none;
+}
+.display i{
+    color: #019555;
+    font-size: 20px;
+    cursor: pointer;
+}
+button{
+   background-color: #019555;
+  padding: 12px 0px;
+  width: 60%;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+button i{
+    font-size: 25px;
+  
+}

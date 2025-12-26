@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-color: lightcoral;
+    
+}
+span{
+    color: red;
+}
+h4{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+.container{
+    width: 350px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.contain h3{
+    color: blue;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+   
+}
+.btn:hover:not([disabled]){
+    background-color: rgb(119, 105, 105);
+    transition: all  0.4s ease;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+.next{
+  padding: 4px 18px;
+  margin-left: 40%;
+  margin-top: 10px;
+  cursor: pointer;
+ display: none;
+}
+.correct{
+    background-color: rgba(12, 124, 12, 0.89);
+    color: #f0e8e8;
+}
+
+.incorrect{
+    background-color: rgb(241, 123, 129);
+    color: #2e1b1b;
+}

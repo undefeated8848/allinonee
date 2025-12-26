@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c0be9;
+}
+.input-box{
+  
+    width: 400px;
+    margin: 100px auto;
+   background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    color: #555;
+}
+.input-box input{
+    padding:10px 30px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+.input-box img{
+    width: 25px;
+   height: 30px; 
+    cursor: pointer;
+}

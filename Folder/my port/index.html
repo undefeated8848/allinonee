@@ -1,0 +1,241 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>My Port</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="ri-xrp-line fan" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="ri-menu-line fan" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="text">
+                    <p>Fullstack Developer</p>
+                    <h1>Hi, I'm <span>Kevin</span> <br> Jen from Australia</h1>
+                </div>
+            </div>
+        </div>
+    <!-- ---------------------about section---------------------------  -->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="user.png">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iusto eos tempore, 
+                    dolores delectus maxime asperiores? Illo, delectus. Facere, voluptate temporibus
+                    consequatur velit neque laboriosam explicabo. Omnis nulla mollitia quaerat?
+                Vero earum volupt ates exercitationem! Itaque voluptatum debitis dolores consequatur 
+                soluta minima corporis, doloribus atque facilis beatae suscipit error molestias eaque
+                ipsa ex! Possimus alias fugit dignissimos, suscipit eveniet voluptate placeat.</p>
+
+                <div class="tab-titles ">
+                        
+                    <!-- onclick function vitra skills declare garecha , ra tal apatti skills id decha kina vannda skills lai tab garda tala 
+                    deyaeko id koi nai khulna paro so bujisg=h -->
+
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contains active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing  web/app interface</li>
+                        <li><span>Web Development</span><br>  web/app Development</li>
+                        <li><span>App Development</span><br>Designing  IOS / Android Apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contains" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Designing  web/app interface</li>
+                        <li><span>2019-2022</span><br>  web/app Development</li>
+                        <li><span>2016-2020</span><br>Designing  IOS / Android Apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contains" id="education">
+                    <ul>
+                        <li><span>2016</span><br>Designing  web/app interface</li>
+                        <li><span>2018</span><br>  web/app Development</li>
+                        <li><span>2022</span><br>Designing  IOS / Android Apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- -----------------------services--------------------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        nemo voluptate quam eaque dolorum consectetur!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-crop-2-fill"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        nemo voluptate quam eaque dolorum consectetur!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-line"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        nemo voluptate quam eaque dolorum consectetur!</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------portfolio-------------------------  -->
+    <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>thw app connect multipples featrures like measuring blood Pressure hw app connect
+                        multipples featrures like measuring blood Pressure And many more hw app connect 
+                        measuring blood Pressure And many more And many more..</p>
+                    <a href="#"><i class="ri-external-link-fill"></i></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>hw app connect multipples featrures like measuring blood Pressure And many more
+                            blood Pressure And many more..</p>
+                        <a href="#"><i class="ri-external-link-fill"></i></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="work-3.png" >
+                        <div class="layer">
+                            <h3>Online Shopping App App</h3>
+                            <p>thw app connect multipples featrures like measuring blood hw app connect multipples featrures like 
+                                measuring blood Pressure And many more Pressure And many more..</p>
+                            <a href="#"><i class="ri-external-link-fill"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+
+    <!-- -------------------contact--------------  -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <p> <i class="ri-send-plane-fill"></i>Contact@example.com</p>
+                    <p><i class="ri-phone-line"></i>9876584358</p>
+
+                    <div class="social-icons">
+
+                        <a href="https://facebook.com "><i class="ri-facebook-line"></i></a>
+                        <a href=""><i class="ri-twitter-line"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-linkedin-line"></i></a>
+                    </div>
+                    <a href="image-5.png" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="butn butns">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright &copy;Kevin Made <i class="ri-heart-fill"></i> by Ramit Basyal</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tabLinks = document.querySelectorAll(".tab-links");
+        var tabContains =document.querySelectorAll(".tab-contains");
+
+        function opentab(tabname){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+
+            for(tabContain of tabContains){
+                tabContain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+    var sidemenu = document.querySelector("#sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwraEWQD7a_owYOzGFjAuSqQScsHYbZA2LQi4fTYU75R3BJBWnXZ84vZVEXVue_Xqg9Dg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </body>
+    </html>
